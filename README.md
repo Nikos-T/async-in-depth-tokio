@@ -262,7 +262,8 @@ futures = "0.3.28"
 tokio = { version = "1.28.0", features = ["rt", "macros"] }
 ```
 
-```main.rs
+main.rs
+```rust
 ...
 
 #[tokio::main(flavor = "current_thread")]
